@@ -2,10 +2,10 @@
 # Project Name: Sharegardentips
 ## live url: https://gardening-ct.web.app/
 ## Key features:
-   1.Share tip
-   2.Update tip
-   3.Delete tip
-   4.Featured Gardeners
+   - Share tip
+   - Update tip
+   - Delete tip
+   - Featured Gardeners
 ## Technology Used:
    1.HTML
    2.Tailwind CSS
