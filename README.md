@@ -13,5 +13,15 @@
    - Firebase
    - Node js
    - Mongo DB
+## Dependencies:
+   - tailwind css
+   - Lucide-react
+   - React-icons
+   - firebase
+   - react-router
+   - react-simple-typewriter
+   - react-toastify
+   - sweetalert2
+   - swiper
    
 ## Project description: User can sign up and login and the authenticate user can share a tip, also can see his tip and can update and delete it. there is also a gardener section and active gardener section. and the general user can browse tips but can't see details without login.
