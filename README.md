@@ -1,5 +1,6 @@
 ![image alt](https://i.ibb.co/ynnzcBgq/ss2.jpg)
 # Project Name: Sharegardentips
+## Project description:A platform for gardening enthusiasts to share tips, find local gardeners, ask plant care questions, post or join gardening events, and connect over shared interests like composting, hydroponics, balcony gardens, etc.
 ## live url: https://gardening-ct.web.app/
 ## Key features:
    - Share tip
@@ -24,4 +25,4 @@
    - sweetalert2
    - swiper
    
-## Project description: User can sign up and login and the authenticate user can share a tip, also can see his tip and can update and delete it. there is also a gardener section and active gardener section. and the general user can browse tips but can't see details without login.
+
