@@ -9,9 +9,9 @@
 ## Technology Used:
    - HTML
    - Tailwind CSS
-     - React js
+   - React js
    - Firebase
-     - Node js
+   - Node js
    - Mongo DB
    
 ## Project description: User can sign up and login and the authenticate user can share a tip, also can see his tip and can update and delete it. there is also a gardener section and active gardener section. and the general user can browse tips but can't see details without login.
