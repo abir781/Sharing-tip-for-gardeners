@@ -1,4 +1,4 @@
-
+![image alt](https://i.ibb.co/ynnzcBgq/ss2.jpg)
 # Project Name: Sharegardentips
 ## live url: https://gardening-ct.web.app/
 ## Key features:
