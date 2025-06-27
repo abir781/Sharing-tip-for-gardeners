@@ -19,6 +19,8 @@ import Tipdetails from './Pages/Tipdetails.jsx';
 import Updatetip from './Pages/Updatetip.jsx';
 import Errorpage from './Pages/Errorpage.jsx';
 import Explore from './Pages/Explore.jsx';
+import Browsetips2 from './Pages/Browsetips2.jsx';
+import Dashboard from './Pages/Dashboard.jsx';
 
 const router = createBrowserRouter([
   {
@@ -38,13 +40,13 @@ const router = createBrowserRouter([
         path:'/signup',
         Component:Signup,
       },
-          {
-        path:'/browsetip',
+           {
+        path:'/browsetip2',
         hydrateFallbackElement:(<div className='flex justify-center items-center'>
           <span className="loading loading-spinner loading-lg "></span>
         </div>),
         loader:()=>fetch("https://gardening-server-nine.vercel.app/sharetip/public"),
-        Component:Browsetips,
+        Component:Browsetips2,
       },
             {
         path:'/tipdetails/:id',
@@ -91,6 +93,17 @@ const router = createBrowserRouter([
         </div>),
         loader:()=>fetch("https://gardening-server-nine.vercel.app/gardener"),
         Component:Explore,
+      },
+         {
+        path:'/dashboard',
+        hydrateFallbackElement:(<div className='flex justify-center items-center'>
+          <span className="loading loading-spinner loading-lg "></span>
+        </div>),
+         loader:()=>fetch("https://gardening-server-nine.vercel.app/sharetip"),
+       
+         element:(<Privateroute>
+          <Dashboard></Dashboard>
+        </Privateroute>),
       }
     ]
   },

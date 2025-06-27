@@ -53,6 +53,7 @@ const Login = () => {
                  }
   
     return (
+        <div className="bg-[url('/rain2.jpg')] bg-cover bg-center h-screen w-full">
             <div className='flex justify-center min-h-screen items-center'>
              <div className="card bg-base-100 w-full max-w-sm  shrink-0 shadow-2xl py-5 ">
               <h2 className='font-bold text-2xl text-center'>Login your account</h2>
@@ -79,6 +80,7 @@ const Login = () => {
     </div>
       
             
+        </div>
         </div>
     );
 };

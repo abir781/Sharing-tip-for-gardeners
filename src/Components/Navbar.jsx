@@ -29,6 +29,7 @@ const Navbar = ({dark,setdark}) => {
                     <li className='px-2 py-1 '><NavLink className={({isActive})=>(isActive?'font-bold':'')} to="/browsetip">Browse Tips</NavLink></li>
                     <li className='px-2 py-1 '><NavLink className={({isActive})=>(isActive?'font-bold':'')} to="/explore">Explore Gardeners</NavLink></li>
                     <li className='px-2 py-1 '><NavLink className={({isActive})=>(isActive?'font-bold':'')} to="/mytips">My Tips </NavLink></li>
+                     <li className='px-2 py-1 '><NavLink className={({isActive})=>(isActive?'font-bold':'')} to="/dashboard">Dashboard </NavLink></li>
                     
                 </ul>
                 
@@ -45,6 +46,7 @@ const Navbar = ({dark,setdark}) => {
                      <li className=''><NavLink className={({isActive})=>(isActive?'font-bold':'')} to="/browsetip">Browse Tips</NavLink></li>
                     <li className=''><NavLink className={({isActive})=>(isActive?'font-bold':'')} to="/explore">Explore Gardeners</NavLink></li>
                     <li className=''><NavLink className={({isActive})=>(isActive?'font-bold':'')} to="/mytips">My Tips </NavLink></li>
+                     <li className=''><NavLink className={({isActive})=>(isActive?'font-bold':'')} to="/dashboard">Dashboard </NavLink></li>
                    
                 </ul>
 

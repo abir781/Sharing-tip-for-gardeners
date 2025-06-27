@@ -7,7 +7,18 @@ const Footer = () => {
         <div className='bg-green-700 py-15'>
             <div className='flex flex-col gap-5 lg:flex-row lg:justify-between items-center w-11/12 mx-auto border-b border-white pb-20'>
                 <div>
-                <h1 className='text-3xl font-bold text-white'>NearEvents</h1>
+                <h1 className='text-3xl font-bold text-white'>Sharetips</h1>
+                </div>
+                  <div>
+                     <ul className=' space-y-5 text-white text-center'>
+                    <li className=''><NavLink className={({isActive})=>(isActive?'font-bold ':'')} to="/">Home</NavLink></li>
+                    <li className=''><NavLink className={({isActive})=>(isActive?'font-bold':'')} to="/sharetip">Share a Garden Tip</NavLink></li>
+                     <li className=''><NavLink className={({isActive})=>(isActive?'font-bold':'')} to="/browsetip2">Browse Tips</NavLink></li>
+                    <li className=''><NavLink className={({isActive})=>(isActive?'font-bold':'')} to="/explore">Explore Gardeners</NavLink></li>
+                    <li className=''><NavLink className={({isActive})=>(isActive?'font-bold':'')} to="/mytips">My Tips </NavLink></li>
+                   
+                </ul>
+
                 </div>
                 <div>
                     <h2 className='text-2xl font-bold text-white'>Follow Us</h2>

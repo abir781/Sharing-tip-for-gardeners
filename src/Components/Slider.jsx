@@ -22,17 +22,20 @@ const Slider = () => {
     >
       <SwiperSlide className='text-white'>
         <img className='h-[725px] relative rounded-2xl' src="/slider1.jpg" alt="" style={{width:"100%"}} />
+        <div class="absolute inset-0 bg-[linear-gradient(rgba(20,20,20,0.4),rgba(20,20,20,0.4))]"></div>
         <h1 className='text-white text-6xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center'>Grow Together</h1>
         <button className='bg-green-700 px-4 py-2 text-whie rounded-2xl font-bold absolute top-[450px] left-1/2 -translate-x-1/2 -translate-y-1/2'>Explore</button>
         </SwiperSlide>
       <SwiperSlide className='text-white'>
         <img className='h-[725px] relative rounded-2xl' src="/slider2.jpg" alt="" style={{width:"100%"}}/>
+        <div class="absolute inset-0 bg-[linear-gradient(rgba(20,20,20,0.4),rgba(20,20,20,0.4))]"></div>
         <h1 className='text-white text-6xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center '>Your Green Journey Starts Here</h1>
         <button className='bg-green-700 px-4 py-2 text-whie rounded-2xl font-bold absolute top-[450px] left-1/2 -translate-x-1/2 -translate-y-1/2'>Explore</button>
 
         </SwiperSlide>
       <SwiperSlide className='text-white'>
         <img className='h-[725px] relative rounded-2xl' src="/slider3.jpg" alt="" style={{width:"100%"}}/>
+        <div class="absolute inset-0 bg-[linear-gradient(rgba(20,20,20,0.4),rgba(20,20,20,0.4))]"></div>
          <h1 className='text-white text-6xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center'>Urban Gardening Made Simple</h1>
          <button className='bg-green-700 px-4 py-2 text-whie rounded-2xl font-bold absolute top-[450px] left-1/2 -translate-x-1/2 -translate-y-1/2'>Explore</button>
         </SwiperSlide>
