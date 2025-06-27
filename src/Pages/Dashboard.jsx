@@ -1,5 +1,5 @@
 import React, { use, useEffect, useState } from 'react';
-import { useLoaderData } from 'react-router';
+import { NavLink, Outlet, useLoaderData } from 'react-router';
 import { Authcontext } from '../provider/Authprovider';
 
 const Dashboard = () => {
@@ -50,6 +50,29 @@ const Dashboard = () => {
             </div>
             
         </div>
+
+         <div className='bg-green-700 mt-10 rounded-2xl w-full'>
+            <div className='flex justify-center mt-10'>
+                <img className='w-[200px] h-[200px]' src={user.photoURL} alt="" />
+                
+
+            </div>
+            <h2 className='text-4xl text-center text-white'>{user.displayName}</h2>
+             <h2 className='text-4xl text-center text-white pb-10'>{user.email}</h2>
+
+        </div>
+        <div className='mt-10 flex justify-center mb-10'>
+              <ul className='flex gap-5 text-green-700'>
+                    
+                    <li className=''><NavLink className={({isActive})=>(isActive?'font-bold':'')} to="dashboard/sharetip">Share a Garden Tip</NavLink></li>
+                     <li className=''><NavLink className={({isActive})=>(isActive?'font-bold':'')} to="dashboard/browsetip2">Browse Tips</NavLink></li>
+                   
+                    <li className=''><NavLink className={({isActive})=>(isActive?'font-bold':'')} to="dashboard/mytips">My Tips </NavLink></li>
+                  
+                   
+                </ul>
+        </div>
+        <Outlet></Outlet>
         </div>
     );
 };

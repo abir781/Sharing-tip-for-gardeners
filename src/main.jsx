@@ -104,6 +104,32 @@ const router = createBrowserRouter([
          element:(<Privateroute>
           <Dashboard></Dashboard>
         </Privateroute>),
+         children:[
+      {
+        index:true,
+        path:'dashboard/sharetip',
+        Component:Sharetip,
+      },
+          {
+        path:'dashboard/browsetip2',
+        hydrateFallbackElement:(<div className='flex justify-center items-center'>
+          <span className="loading loading-spinner loading-lg "></span>
+        </div>),
+        loader:()=>fetch("https://gardening-server-nine.vercel.app/sharetip/public"),
+        Component:Browsetips2,
+      },
+           {
+        path:'dashboard/mytips',
+         hydrateFallbackElement:(<div className='flex justify-center items-center'>
+          <span className="loading loading-spinner loading-lg "></span>
+        </div>),
+        loader:()=>fetch("https://gardening-server-nine.vercel.app/sharetip"),
+
+        element:(<Privateroute>
+          <Mytips></Mytips>
+        </Privateroute>),
+      },
+    ]
       }
     ]
   },
