@@ -64,7 +64,7 @@ const Dashboard = () => {
         <div className='mt-10 flex justify-center mb-10'>
               <ul className='flex gap-5 text-green-700'>
                     
-                    <li className=''><NavLink className={({isActive})=>(isActive?'font-bold':'')} to="dashboard/sharetip">Share a Garden Tip</NavLink></li>
+                    <li className=''><NavLink className={({isActive})=>(isActive?'font-bold':'')} to="/dashboard">Share a Garden Tip</NavLink></li>
                      <li className=''><NavLink className={({isActive})=>(isActive?'font-bold':'')} to="dashboard/browsetip2">Browse Tips</NavLink></li>
                    
                     <li className=''><NavLink className={({isActive})=>(isActive?'font-bold':'')} to="dashboard/mytips">My Tips </NavLink></li>

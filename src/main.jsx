@@ -107,7 +107,7 @@ const router = createBrowserRouter([
          children:[
       {
         index:true,
-        path:'dashboard/sharetip',
+       
         Component:Sharetip,
       },
           {
