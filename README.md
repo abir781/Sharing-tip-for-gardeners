@@ -24,5 +24,8 @@
    - react-toastify
    - sweetalert2
    - swiper
-   
+ ## How to run project on local machine:
+   - First clone the repository
+   - Install the dependencies
+   - Run the project
 
