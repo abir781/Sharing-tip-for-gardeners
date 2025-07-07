@@ -1,4 +1,4 @@
-![image alt](https://i.ibb.co/ynnzcBgq/ss2.jpg)
+![image alt](https://i.ibb.co/p6pvrvMM/raws.jpg)
 # Project Name: Sharegardentips
 ## A platform for gardening enthusiasts to share tips, find local gardeners, ask plant care questions, post or join gardening events, and connect over shared interests like composting, hydroponics, balcony gardens, etc.
 ## live url: https://gardening-ct.web.app/
