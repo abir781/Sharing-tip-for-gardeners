@@ -3,10 +3,9 @@
 ## A platform for gardening enthusiasts to share tips, find local gardeners, ask plant care questions, post or join gardening events, and connect over shared interests like composting, hydroponics, balcony gardens, etc.
 ## live url: https://gardening-ct.web.app/
 ## Key features:
-   - Share tip
-   - Update tip
-   - Delete tip
-   - Featured Gardeners
+   - A private form to submit gardening tips with details and save them to MongoDB.
+   - A private route with a pre-filled form to update tips and save changes to the database.
+   - Allows users to delete their tips directly from the database. 
 ## Technology Used:
    - HTML
    - Tailwind CSS
